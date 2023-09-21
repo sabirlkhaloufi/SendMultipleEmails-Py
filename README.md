@@ -25,32 +25,32 @@ Before using this script, make sure you have the following:
 # Usage
 ## To use this script, follow these steps:
 
-1- Open the script file (email_automation.py) in a text editor.
-2- Replace the following variables with your Gmail account credentials:
+1. Open the script file (email_automation.py) in a text editor.
+2. Replace the following variables with your Gmail account credentials:
 
 ```bash
     sender_email = 'your_email@gmail.com'
     sender_password = 'your_password'
 ```
-3- Customize the email subject and body to your needs:
+3. Customize the email subject and body to your needs:
 ```bash
     subject = 'Your Email Subject'
     body = 'Your Email Body'
  ```
-4- Replace the cv_file variable with the filename of your CV. Make sure the CV file is in the same directory as the script, or provide the full file path:
+4. Replace the cv_file variable with the filename of your CV. Make sure the CV file is in the same directory as the script, or provide the full file path:
 
 ```bash
     cv_file = 'your_cv.pdf'
 ```
-5- Create a text file (emails.txt) containing the list of recipient email addresses (one email address per line).
-6- Replace the file_path variable with the path to your emails.txt file:
+5. Create a text file (emails.txt) containing the list of recipient email addresses (one email address per line).
+6. Replace the file_path variable with the path to your emails.txt file:
 
 ```bash
     file_path = 'emails.txt'
 ```
 
-7- Save your changes.
-8- Run the script in your terminal:
+7. Save your changes.
+8. Run the script in your terminal:
 
 ```bash
     python sendemail.py
